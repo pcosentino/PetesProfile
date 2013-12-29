@@ -8,11 +8,13 @@ gem 'rails', '3.2.8'
 # gem 'sqlite3'
 gem 'mysql', '2.8.1'
 group :development do
+	gem 'sqlite3', '1.3.5'
 	gem 'pry'
 end
 
 group :production do
- gem 'activerecord-postgresql-adapter'
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
 end
 
 # Gems used only for assets and not required
