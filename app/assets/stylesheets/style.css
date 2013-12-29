@@ -1,26 +1,26 @@
-    p{
-      font-size: 16px;
-    }
-    #container{
-      background:#f0f0f0; 
-      width: 80%;
-      margin:0 auto;
-      padding:25px;
-    }
-    #header{
-      font-size: 1.2em;
-    }
-    div ul {
-      display: inline-block;
-      list-style: none;
-    }
-    #about{
-      width: 100%;
-    }
-    #about h1{
-      margin-bottom: 0;
-      border-bottom: 2px solid gray;
-    }
-    #resume{
-      width: 100%;
-    }
+p{
+font-size: 16px;
+}
+#container{
+background:#f0f0f0; 
+width: 80%;
+margin:0 auto;
+padding:25px;
+}
+#header{
+font-size: 1.2em;
+}
+div ul {
+display: inline-block;
+list-style: none;
+}
+#about{
+width: 100%;
+}
+#about h1{
+margin-bottom: 0;
+border-bottom: 2px solid gray;
+}
+#resume{
+width: 100%;
+}
