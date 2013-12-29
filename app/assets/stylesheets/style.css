@@ -1,26 +1,49 @@
+*{
+  margin:0;
+}
+html{
+  background:#f0f0f0;
+  font-family: Arial;
+}
 p{
-font-size: 16px;
+  font-size: 16px;
+  margin-top: 1em;
+}
+h1, h2, h3{
+  margin-top:1em;
 }
 #container{
-background:#f0f0f0; 
-width: 80%;
-margin:0 auto;
-padding:25px;
+  background:#fff; 
+  width: 80%;
+  margin:0 auto;
+  padding:25px;
 }
 #header{
-font-size: 1.2em;
+  font-size: 1.2em;
 }
-div ul {
-display: inline-block;
-list-style: none;
+#header img{
+  margin-right: 1em;
+}
+#info {
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+}
+#info p{
+  margin: 0;
 }
 #about{
-width: 100%;
+  width: 100%;
 }
 #about h1{
-margin-bottom: 0;
-border-bottom: 2px solid gray;
+  margin-bottom: 0;
+  border-bottom: 2px solid gray;
 }
 #resume{
-width: 100%;
+  width: 100%;
+}
+#linkedin{
+  border:none;
+  width: 50px;
+  margin-top: 5px;
 }
