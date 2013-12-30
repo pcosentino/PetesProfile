@@ -12,6 +12,12 @@ p{
 h1, h2, h3{
   margin-top:1em;
 }
+li{
+  list-style: none;
+}
+ul{
+  display: inline-block;
+}
 #container{
   background:#fff; 
   width: 80%;
@@ -26,11 +32,15 @@ h1, h2, h3{
 }
 #info {
   display: inline-block;
-  list-style: none;
   vertical-align: top;
 }
 #info p{
   margin: 0;
+}
+#linkedin{
+  border:none;
+  width: 50px;
+  margin-top: 5px;
 }
 #about{
   width: 100%;
@@ -41,9 +51,4 @@ h1, h2, h3{
 }
 #resume{
   width: 100%;
-}
-#linkedin{
-  border:none;
-  width: 50px;
-  margin-top: 5px;
 }
