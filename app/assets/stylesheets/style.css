@@ -57,7 +57,12 @@ ul{
 }
 
 
-@media screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
+  
+  html{
+    border:3px solid red;
+    width:100%;
+  }
   h1, h2, h3{
     font-size:4em;
   }
