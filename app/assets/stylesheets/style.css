@@ -61,6 +61,7 @@ ul{
   
   html{
     width:100%;
+    border:4px solid red;
   }
   h1, h2, h3{
     font-size:4em;
