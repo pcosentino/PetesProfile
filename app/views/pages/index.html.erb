@@ -80,14 +80,12 @@
       <li>Left Heart-Bypass</li>
     </ul>
     
-
   <div id="contact">
     <h1>Contact</h1>
-  <p>Hey there, if you'd like to view an updated version of my resume, please feel free to get ahold of me.
-  </p>
-  <br>
-    <form>
-      <%= form_tag url_for(:action => 'send_email'), :remote => true, :id => 'contact_form' do %>
+      <p>
+        Hey there, if you'd like to view an updated version of my resume, please feel free to get ahold of me.
+     </p>
+    <%= form_tag url_for(:action => 'send_email'), :remote => true, :id => 'contact_form' do %>
       <div id="tag1">First Name:</div>
       <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "33" %><br>
       <div id="tag1">Last Name:</div>
@@ -97,9 +95,8 @@
       <div id="tag1">How can I help you?</div>
       <%= text_area_tag :notes, '', :name => "user[notes]", :size => "29x8" %><br>
       <%= submit_tag "Submit", :id => "submit_form_button" %>
-      <% end %>
-    </form>
+    <% end %>
   </div>
-
 </div>
-
+ 
+<footer></footer>
