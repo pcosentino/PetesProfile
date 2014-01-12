@@ -58,11 +58,12 @@ ul{
 #resume{
   width: 100%;
 }
-#contact{
-  /*border:1px solid red;*/
+#contact h1{
+  margin-bottom:0;
+  border-bottom:2px solid gray;
 }
 #contact p{
-  margin-bottom: 15px;
+  margin:15px 0;
 }
 footer{
   padding: 15px 80px;
