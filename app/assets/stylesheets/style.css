@@ -2,6 +2,7 @@
   margin:0;
 }
 html{
+  border:1px solid red;
   background: #2c878a;;
   font-family: Arial;
 }
