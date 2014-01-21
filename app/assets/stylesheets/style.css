@@ -22,7 +22,6 @@ ul{
   display: inline-block;
 }
 #container{
-  border:1px solid red;
   background:#fff; 
   margin:0 auto;
   padding: 25px 80px;
